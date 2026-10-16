@@ -1,0 +1,8 @@
+.venv/
+.venv-transcritor/
+__pycache__/
+*.pyc
+ffmpeg*/
+*.wav
+*.mp4
+ffmpeg*.zip

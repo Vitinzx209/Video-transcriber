@@ -1,0 +1,4 @@
+faster-whisper>=1.2,<2
+# O faster-whisper chama av.open(..., metadata_errors=...), parâmetro removido nas versões novas do PyAV.
+# Sem este limite o erro é: "open() got an unexpected keyword argument 'metadata_errors'".
+av<17
